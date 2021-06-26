@@ -1,0 +1,12 @@
+GIT:
+git clone <https://name-of-the-repository-link>   => identical copy
+git branch <branch-name>                          => create new branch
+git push -u <remote> <branch-name>                => push branch on remote repository
+git branch or git branch --list                   => view branches
+git branch -d <branch-name>                       => deleting branch
+git checkout <name-of-your-branch>                => switching to other branch
+git status                                        => information of current branch
+git add <file>                                    => include change in next commit  use -A for all new file
+git commit -m "commit message"                    => saves changes locally
+git pull <remote>                                 => get update from remote repository
+git revert 3321844                                => reverts commits changes
